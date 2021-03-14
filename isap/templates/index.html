@@ -30,8 +30,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#R3">R3</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#PVA">PVA</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Login</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -80,96 +81,122 @@
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <!-- R3 Grid-->
+        <section class="page-section bg-light" id="R3">
             {% load static %}
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">ISAP 제공 서비스</h2>
+                    <h2 class="section-heading text-uppercase">R3 제공 서비스</h2>
                     <h3 class="section-subheading text-muted">제공 서비스 설명</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="R3-item">
+                            <a class="R3-link" data-toggle="modal" href="#R3Modal1">
+                                <div class="R3-hover">
+                                    <div class="R3-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">R2 to R3</div>
-                                <div class="portfolio-caption-subheading text-muted">R2 to R3 변환</div>
+                            <div class="R3-caption">
+                                <div class="R3-caption-heading">R2 to R3</div>
+                                <div class="R3-caption-subheading text-muted">R2 to R3 변환</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="R3-item">
+                            <a class="R3-link" data-toggle="modal" href="#R3Modal2">
+                                <div class="R3-hover">
+                                    <div class="R3-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">R3 to R3(KR)</div>
-                                <div class="portfolio-caption-subheading text-muted">R3 to R3(KR) 변환</div>
+                            <div class="R3-caption">
+                                <div class="R3-caption-heading">R3 to R3(KR)</div>
+                                <div class="R3-caption-subheading text-muted">R3 to R3(KR) 변환</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="R3-item">
+                            <a class="R3-link" data-toggle="modal" href="#R3Modal3">
+                                <div class="R3-hover">
+                                    <div class="R3-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Excel to R3</div>
-                                <div class="portfolio-caption-subheading text-muted">Excel to R3 변환</div>
+                            <div class="R3-caption">
+                                <div class="R3-caption-heading">Excel to R3</div>
+                                <div class="R3-caption-subheading text-muted">Excel to R3 변환</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="R3-item">
+                            <a class="R3-link" data-toggle="modal" href="#R3Modal4">
+                                <div class="R3-hover">
+                                    <div class="R3-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">PVA</div>
-                                <div class="portfolio-caption-subheading text-muted">Automation</div>
+                            <div class="R3-caption">
+                                <div class="R3-caption-heading">R3 Error Representer</div>
+                                <div class="R3-caption-subheading text-muted">R3 Error Representer</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- PVA Grid-->
+        <section class="page-section bg-light" id="PVA">
+            {% load static %}
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">PVA 제공 서비스</h2>
+                    <h3 class="section-subheading text-muted">제공 서비스 설명</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="PVA-item">
+                            <a class="PVA-link" data-toggle="modal" href="#PVAModal1">
+                                <div class="PVA-hover">
+                                    <div class="PVA-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">LLTPTConverter</div>
-                                <div class="portfolio-caption-subheading text-muted">LLT PT Converter</div>
+                            <div class="PVA-caption">
+                                <div class="PVA-caption-heading">Automation</div>
+                                <div class="PVA-caption-subheading text-muted">자동화</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="PVA-item">
+                            <a class="PVA-link" data-toggle="modal" href="#PVAModal2">
+                                <div class="PVA-hover">
+                                    <div class="PVA-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
                                 <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Tracker</div>
-                                <div class="portfolio-caption-subheading text-muted">Tracker </div>
+                            <div class="PVA-caption">
+                                <div class="PVA-caption-heading">LLTPTConverter</div>
+                                <div class="PVA-caption-subheading text-muted">LLTPTConverter</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="PVA-item">
+                            <a class="PVA-link" data-toggle="modal" href="#PVAModal3">
+                                <div class="PVA-hover">
+                                    <div class="PVA-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
+                            </a>
+                            <div class="PVA-caption">
+                                <div class="PVA-caption-heading">Tracker</div>
+                                <div class="PVA-caption-subheading text-muted">Tracker</div>
                             </div>
                         </div>
                     </div>
@@ -225,11 +252,11 @@
                 </div>
             </div>
         </footer>
-        <!-- Portfolio Modals-->
+        <!-- R3 Modals-->
         <!-- Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            {% load static %}
+        <div class="portfolio-modal modal fade" id="R3Modal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
+                {% load static %}
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
                     <div class="container">
@@ -253,9 +280,9 @@
             </div>
         </div>
         <!-- Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="R3Modal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
-            {% load static %}
+                {% load static %}
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
                     <div class="container">
@@ -279,7 +306,7 @@
             </div>
         </div>
         <!-- Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="R3Modal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 {% load static %}
                 <div class="modal-content">
@@ -289,8 +316,8 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Excel to R3</h2>
+                                    <p class="item-intro text-muted">Excel to R3 설명.</p>
                                     <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                                     <p>Excel to R3 설명</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -305,7 +332,7 @@
             </div>
         </div>
         <!-- Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="R3Modal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 {% load static %}
                 <div class="modal-content">
@@ -315,8 +342,35 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">R3 Error Representer</h2>
+                                    <p class="item-intro text-muted">R3 Error Representer.</p>
+                                    <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
+                                    <p>R3 Error Representer</p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PVA Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="PVAModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                {% load static %}
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">PVA Automation</h2>
+                                    <p class="item-intro text-muted">Automation 설명</p>
                                     <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                                     <p>PVA 설명</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -330,19 +384,19 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="PVAModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
+                {% load static %}
                 <div class="modal-content">
-                    {% load static %}
                     <div class="close-modal" data-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">LLTPTConverter</h2>
+                                    <p class="item-intro text-muted">LLTPTConverter 설명</p>
                                     <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                                     <p>LLTPT 설명</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -356,19 +410,19 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="PVAModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
+                {% load static %}
                 <div class="modal-content">
-                    {% load static %}
                     <div class="close-modal" data-dismiss="modal"><img src="{% static 'assets/img/close-icon.svg' %}" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Tracker</h2>
+                                    <p class="item-intro text-muted">Tracker 설명.</p>
                                     <img class="img-fluid d-block mx-auto" src="{% static 'assets/img/portfolio/logo.jpg' %}" alt="" />
                                     <p>Tracker 설명</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -394,3 +448,7 @@
         <script src="{% static 'js/scripts.js' %}"></script>
     </body>
 </html>
+
+
+
+        

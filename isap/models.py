@@ -1,6 +1,6 @@
 from django.db import models
 from django.urls import reverse
-
+from . import managers
 
 # Create your models here.
 # 글의 분류( 일상, 유머, 정보)
@@ -23,6 +23,24 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-    # #1번 글의 경우 -> single/1
-    # def get_absolute_url(self):
-    #     return reverse("")
+    #1번 글의 경우 
+    def get_absolute_url(self):
+        return reverse("post", args = [str(self.id)])
+    
+    def is_content_more300(self):
+        return len(self.content) > 300
+
+    def get_content_under300(self):
+        return self.content[:300]
+
+
+class TimeStampedModel(models.Model):
+
+    """ Time Stamped Model """
+
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+    objects = managers.CustomModelManager()
+
+    class Meta:
+        abstract = True

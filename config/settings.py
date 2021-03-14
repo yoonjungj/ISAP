@@ -45,6 +45,7 @@ THIRD_PARTY_APPS = ["django_countries", "django_seed"]
 PROJECT_APPS = [
     "isap.apps.IsapConfig",
     "r3.apps.R3Config",
+    #"users.apps.UsersConfig",
     
 ]
 
