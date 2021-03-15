@@ -4,6 +4,6 @@ from isap import views
 app_name = "isap"
 
 urlpatterns = [
-    path("", views.index, name='index')
-    #path("post/<int:pk>", views.PostDetailView.as_view(), name="post")
+    path("", views.index, name="index")
+    # path("post/<int:pk>", views.PostDetailView.as_view(), name="post")
 ]
